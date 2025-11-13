@@ -1,0 +1,67 @@
+/* Global theme for Dog Blog */
+:root {
+  --brand-dark: #212529;
+  --brand: #0d6efd;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Sticky footer layout */
+html, body { height: 100%; }
+body { min-height: 100vh; display: flex; flex-direction: column; }
+main.container { flex: 1 0 auto; }
+footer { flex-shrink: 0; margin-top: auto; }
+
+/* Cards and content */
+.card-fixed { display: flex; flex-direction: column; height: 100%; }
+.card-fixed .card-img-top { height: 200px; object-fit: cover; }
+.card-fixed .card-body { display: flex; flex-direction: column; }
+.card-fixed .excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 4.5rem;
+}
+.card-fixed .meta { font-size: 0.875rem; color: #6c757d; }
+.card-fixed .read-more { margin-top: auto; }
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, rgba(13,110,253,0.08), rgba(32,201,151,0.08));
+  border: 1px solid rgba(0,0,0,0.05);
+  border-radius: .75rem;
+}
+.hero .lead { color: #495057; }
+
+/* Random dog widget */
+.dog-widget .card-img-bottom { max-height: 360px; object-fit: cover; }
+.dog-widget .card-title { margin-bottom: .25rem; }
+.dog-widget .card-body { padding: 1rem 1.25rem; }
+
+/* Footer */
+footer a.link-light:hover { color: #fff; }
+
+/* Images */
+img.rounded { border-radius: .5rem !important; }
+
+/* Utilities */
+.section-title { display: flex; align-items: center; gap: .5rem; }
+.section-title .dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--brand); display: inline-block; }
+
+/* Navbar logo sizing for consistent branding */
+.navbar-logo {
+  width: 28px;
+  height: 28px;
+}
+
+/* Subtle color refinements for a professional tone */
+body {
+  background-color: #f8f9fb;
+}
+.card {
+  border: 1px solid rgba(0,0,0,0.05);
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" aria-hidden="true">
+  <!-- Simple paw icon -->
+  <circle cx="7" cy="7" r="2.5" />
+  <circle cx="12" cy="6" r="2.5" />
+  <circle cx="17" cy="7" r="2.5" />
+  <path d="M12 12c-2.5 0-6 1.5-6 4.5S8 22 12 22s6-1.5 6-5.5S14.5 12 12 12z" />
+</svg>
